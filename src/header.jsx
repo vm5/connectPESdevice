@@ -48,6 +48,7 @@ const HeaderContainer = styled.header`
   @media (max-width: 480px) {
     font-size: 1rem;
     padding: 10px;
+    width: 100%; /* Ensure full width on small screens */
   }
 `;
 
@@ -122,9 +123,11 @@ const ListItem = styled.li`
 const ImageContainer = styled.div`
   flex: 1;
   text-align: center;
+  margin: 0; /* Reset margin for better alignment on small screens */
 
   @media (max-width: 768px) {
     margin-top: 20px;
+    width: 100%; /* Ensure full width on small screens */
   }
 `;
 
