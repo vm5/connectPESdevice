@@ -210,7 +210,7 @@ const styles = {
     fontWeight: 'normal',
     color: 'lightblue',
     fontFamily: 'Coneria',
-    fontSize: '20px'
+    fontSize: '17px',
   },
   logo: {
     width: '200px',
